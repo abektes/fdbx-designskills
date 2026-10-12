@@ -4,6 +4,10 @@
 **Horizon (default 20–50 years):**
 **Present conditions the futures grow from:**
 
+## Answer
+
+[Two to four sentences: the answer to the question asked (decision, verdict or recommendation) and the main reason.]
+
 ## The Four Futures at a Glance
 
 | Future | Generic type | Underlying logic | What changed |

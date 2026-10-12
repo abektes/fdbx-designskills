@@ -4,6 +4,10 @@
 **Horizon length and why:**
 **Who is involved:**
 
+## Answer
+
+[Two to four sentences: the answer to the question asked (decision, verdict or recommendation) and the main reason.]
+
 ## The Map
 
 | Horizon | Pattern | Evidence | Who holds it | Direction |

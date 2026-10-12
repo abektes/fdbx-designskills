@@ -78,11 +78,17 @@ Then name **actions**: H2+ moves to start or strengthen, H1 features to protect,
 
 ## Output Format
 
+Open with a short **Answer**: two to four sentences that answer the question the user actually asked (the decision, verdict or recommendation) and the main reason for it. The method's sections follow and back it up; they never replace it. Write it once, as the first section under the title.
+
 A blank version is in `assets/three-horizons-template.md`.
 
 ### Three Horizons: [Area of concern], horizon [N] years
 
 One paragraph: the area, the horizon length and why, and who is involved. This is the futures practice: no McKinsey-style core/adjacent/transformational framing.
+
+### Answer
+
+[Two to four sentences: the answer to the question asked (decision, verdict or recommendation) and the main reason.]
 
 ### The Map
 
@@ -168,6 +174,7 @@ A strong Three Horizons output:
 - ends with actions tied to specific horizons
 - contains no McKinsey-style core/adjacent/transformational framing
 - ends with a Handoff naming the next method and why
+- opens with a direct answer to the decision or question the user asked, which the rest of the output supports
 
 ## Integration with Other Skills
 

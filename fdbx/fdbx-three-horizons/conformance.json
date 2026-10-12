@@ -51,6 +51,15 @@
   },
   "structural": [
     {
+      "id": "answer_first",
+      "kind": "any_of",
+      "checks": [
+        {"kind": "section_present", "pattern": "(?m)^\\s*(?:#{1,6}\\s*Answer\\b|\\*\\*Answer\\b)"}
+      ],
+      "bar": "opens with a direct answer to the decision or question the user asked, which the rest of the output supports",
+      "desc": "the output opens with an Answer section"
+    },
+    {
       "id": "h1_section",
       "kind": "section_present",
       "pattern": "h1",

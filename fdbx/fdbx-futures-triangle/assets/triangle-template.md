@@ -4,6 +4,10 @@
 **Horizon:**
 **Whose views are mapped:**
 
+## Answer
+
+[Two to four sentences: the answer to the question asked (decision, verdict or recommendation) and the main reason.]
+
 ## Pull — Images of the Future
 
 | Image | Archetype | Held by | What it promises |

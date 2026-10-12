@@ -4,6 +4,10 @@
 **Mode (preferred / avoid):**
 **Who is backcasting:**
 
+## Answer
+
+[Two to four sentences: the answer to the question asked (decision, verdict or recommendation) and the main reason.]
+
 ## The Preferred Future in [Year]
 
 **What people can do:**

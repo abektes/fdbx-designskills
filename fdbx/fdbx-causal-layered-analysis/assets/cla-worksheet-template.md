@@ -4,6 +4,10 @@
 **Whose framing is this:**
 **Context (users, place, communities with a different view):**
 
+## Answer
+
+[Two to four sentences: the answer to the question asked (decision, verdict or recommendation) and the main reason.]
+
 ## Layer Table
 
 | Layer | Problem | Solution | Problem-solver | Where it lives |

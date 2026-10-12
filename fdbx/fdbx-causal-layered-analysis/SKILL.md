@@ -90,11 +90,17 @@ State what the analysis changes for the design work: which parts of the original
 
 ## Output Format
 
+Open with a short **Answer**: two to four sentences that answer the question the user actually asked (the decision, verdict or recommendation) and the main reason for it. The method's sections follow and back it up; they never replace it. Write it once, as the first section under the title.
+
 A blank version is in `assets/cla-worksheet-template.md`.
 
 ### CLA: [Issue or brief name]
 
 One paragraph: the issue, whose framing it is, and the context.
+
+### Answer
+
+[Two to four sentences: the answer to the question asked (decision, verdict or recommendation) and the main reason.]
 
 ### Layer Table
 
@@ -170,6 +176,7 @@ A strong CLA output:
 - gives one scenario per layer, and the four differ in kind rather than intensity
 - records every factual or trend claim in the Evidence Ledger with its type
 - ends with a Handoff naming the next method and why
+- opens with a direct answer to the decision or question the user asked, which the rest of the output supports
 
 ## Integration with Other Skills
 

@@ -4,6 +4,10 @@
 **Mode (analyse / scan / plan), and why:**
 **Signals from:** user-supplied (n), sourced (n)
 
+## Answer
+
+[Two to four sentences: the answer to the question asked (decision, verdict or recommendation) and the main reason.]
+
 ## Scans
 
 | # | Signal | Source | Date | Type of evidence | PESTLE | Why it matters |

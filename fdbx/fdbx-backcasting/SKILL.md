@@ -116,11 +116,17 @@ Backcast a feared future the same way. The critical events become the ones to bl
 
 ## Output Format
 
+Open with a short **Answer**: two to four sentences that answer the question the user actually asked (the decision, verdict or recommendation) and the main reason for it. The method's sections follow and back it up; they never replace it. Write it once, as the first section under the title.
+
 A blank version is in `assets/backcasting-template.md`.
 
 ### Backcasting: [Subject], [Year]
 
 One paragraph: the goal, the mode (preferred or avoid), and who is backcasting.
+
+### Answer
+
+[Two to four sentences: the answer to the question asked (decision, verdict or recommendation) and the main reason.]
 
 ### The Preferred Future in [Year]
 
@@ -209,6 +215,7 @@ A strong Backcasting output:
 - ends in an action plan with owners and decision points, and says whether it is a plan or action learning
 - lists present-day facts the user did not supply as unknowns rather than inventing them
 - ends with a Handoff naming the next method and why
+- opens with a direct answer to the decision or question the user asked, which the rest of the output supports
 
 ## Integration with Other Skills
 

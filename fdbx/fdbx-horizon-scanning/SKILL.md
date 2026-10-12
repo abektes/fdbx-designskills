@@ -112,6 +112,8 @@ List anything the model believes may be relevant but has not sourced in this ses
 
 ## Output Format
 
+Open with a short **Answer**: two to four sentences that answer the question the user actually asked (the decision, verdict or recommendation) and the main reason for it. The method's sections follow and back it up; they never replace it. Write it once, as the first section under the title.
+
 A blank version is in `assets/horizon-scan-template.md`.
 
 ### Horizon Scan: [Topic], to [Year]
@@ -119,6 +121,10 @@ A blank version is in `assets/horizon-scan-template.md`.
 **Scoping question:** …
 **Mode:** analyse / scan / plan, and why
 **Signals from:** user-supplied (n), sourced (n)
+
+### Answer
+
+[Two to four sentences: the answer to the question asked (decision, verdict or recommendation) and the main reason.]
 
 ### Scans
 
@@ -194,6 +200,7 @@ A strong Horizon Scanning output:
 - rates themes for impact, likelihood and newness to the organisation
 - selects four to eight drivers of change, with recommendations or research needs
 - ends with a Handoff naming the next method and why
+- opens with a direct answer to the decision or question the user asked, which the rest of the output supports
 
 ## Integration with Other Skills
 
