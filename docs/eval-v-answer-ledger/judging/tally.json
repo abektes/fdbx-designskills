@@ -1,0 +1,68 @@
+{
+  "run_id": "20261012T124651Z",
+  "judges": [
+    "sonnet"
+  ],
+  "pairs_per_judge": 18,
+  "label_swaps": [],
+  "skills": {
+    "backcasting": {
+      "sonnet": {
+        "skill_wins": 3,
+        "raw_wins": 0,
+        "ties": 0,
+        "mean_delta": 1.57
+      }
+    },
+    "causal-layered-analysis": {
+      "sonnet": {
+        "skill_wins": 3,
+        "raw_wins": 0,
+        "ties": 0,
+        "mean_delta": 1.43
+      }
+    },
+    "four-futures": {
+      "sonnet": {
+        "skill_wins": 3,
+        "raw_wins": 0,
+        "ties": 0,
+        "mean_delta": 1.76
+      }
+    },
+    "futures-triangle": {
+      "sonnet": {
+        "skill_wins": 3,
+        "raw_wins": 0,
+        "ties": 0,
+        "mean_delta": 0.95
+      }
+    },
+    "horizon-scanning": {
+      "sonnet": {
+        "skill_wins": 2,
+        "raw_wins": 1,
+        "ties": 0,
+        "mean_delta": 0.19
+      }
+    },
+    "three-horizons": {
+      "sonnet": {
+        "skill_wins": 3,
+        "raw_wins": 0,
+        "ties": 0,
+        "mean_delta": 1.24
+      }
+    }
+  },
+  "pair_agreement": "18/18",
+  "mean_dimension_delta": {
+    "structure_format": 0.78,
+    "depth_specificity": 0.56,
+    "actionability": 0.78,
+    "methodology_fidelity": 2.17,
+    "coverage_completeness": 1.33,
+    "ethical_nuance": 0.89,
+    "evidence_honesty": 1.83
+  }
+}

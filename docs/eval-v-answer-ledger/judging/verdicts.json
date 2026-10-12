@@ -1,0 +1,812 @@
+[
+  {
+    "skill": "fdbx-backcasting",
+    "scenario": "accessible-transit-2035",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "B",
+    "winner_arm": "skill",
+    "skill_total": 32,
+    "raw_total": 22,
+    "delta": 1.429,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 4,
+        "raw": 3
+      },
+      "actionability": {
+        "skill": 5,
+        "raw": 4
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "coverage_completeness": {
+        "skill": 4,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 5,
+        "raw": 4
+      },
+      "evidence_honesty": {
+        "skill": 4,
+        "raw": 1
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "B follows the backcasting method closely with owned actions and explicit assumptions and unknowns, while A invents a detailed present-day baseline and omits the control and stakeholder analysis."
+  },
+  {
+    "skill": "fdbx-backcasting",
+    "scenario": "carbon-neutral-software",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "B",
+    "winner_arm": "skill",
+    "skill_total": 33,
+    "raw_total": 21,
+    "delta": 1.714,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 4,
+        "raw": 3
+      },
+      "actionability": {
+        "skill": 5,
+        "raw": 4
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "coverage_completeness": {
+        "skill": 5,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 5,
+        "raw": 2
+      },
+      "evidence_honesty": {
+        "skill": 4,
+        "raw": 2
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "B applies backcasting as published, analyses control and affected parties, and separates assumptions from facts; A is a generic roadmap with unmarked invented baselines and figures."
+  },
+  {
+    "skill": "fdbx-backcasting",
+    "scenario": "zero-waste-packaging",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "A",
+    "winner_arm": "skill",
+    "skill_total": 33,
+    "raw_total": 22,
+    "delta": 1.571,
+    "dims": {
+      "structure_format": {
+        "skill": 4,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 5,
+        "raw": 4
+      },
+      "actionability": {
+        "skill": 5,
+        "raw": 4
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "coverage_completeness": {
+        "skill": 5,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 5,
+        "raw": 2
+      },
+      "evidence_honesty": {
+        "skill": 4,
+        "raw": 2
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "A applies backcasting faithfully, splits events inside and outside the company's control, names who is affected and logs assumptions and unknowns. B is a generic roadmap with invented baseline figures."
+  },
+  {
+    "skill": "fdbx-causal-layered-analysis",
+    "scenario": "hospital-wait-times",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "B",
+    "winner_arm": "skill",
+    "skill_total": 34,
+    "raw_total": 24,
+    "delta": 1.429,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 4,
+        "raw": 4
+      },
+      "actionability": {
+        "skill": 5,
+        "raw": 3
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "coverage_completeness": {
+        "skill": 5,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 5,
+        "raw": 4
+      },
+      "evidence_honesty": {
+        "skill": 5,
+        "raw": 3
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "B applies CLA as published, including competing worldviews and a metaphor reversal, and is explicit about assumptions; A is a good critique but looser on method and silent about what it assumes."
+  },
+  {
+    "skill": "fdbx-causal-layered-analysis",
+    "scenario": "remote-team-connection",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "B",
+    "winner_arm": "skill",
+    "skill_total": 31,
+    "raw_total": 20,
+    "delta": 1.571,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 4,
+        "raw": 3
+      },
+      "actionability": {
+        "skill": 4,
+        "raw": 3
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "coverage_completeness": {
+        "skill": 5,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 4,
+        "raw": 2
+      },
+      "evidence_honesty": {
+        "skill": 4,
+        "raw": 2
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "B applies the full CLA structure including reconstruction and layer scenarios, offers a concrete reframed brief and research plan, and separates assumptions from stated facts; A is conceptual and states unsupported 'data' about the client."
+  },
+  {
+    "skill": "fdbx-causal-layered-analysis",
+    "scenario": "teen-screen-time",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "A",
+    "winner_arm": "skill",
+    "skill_total": 31,
+    "raw_total": 22,
+    "delta": 1.286,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 4,
+        "raw": 4
+      },
+      "actionability": {
+        "skill": 4,
+        "raw": 2
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "coverage_completeness": {
+        "skill": 4,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 4,
+        "raw": 4
+      },
+      "evidence_honesty": {
+        "skill": 5,
+        "raw": 2
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "A completes the published CLA procedure with an alternative metaphor, reconstruction and scenarios, gives a reframed brief and next steps, and keeps its claims marked as assumptions. B stops at deconstruction and asserts unsupported motives."
+  },
+  {
+    "skill": "fdbx-four-futures",
+    "scenario": "bank-branch-2050",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "A",
+    "winner_arm": "skill",
+    "skill_total": 30,
+    "raw_total": 23,
+    "delta": 1.0,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "actionability": {
+        "skill": 5,
+        "raw": 4
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "coverage_completeness": {
+        "skill": 4,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 4,
+        "raw": 3
+      },
+      "evidence_honesty": {
+        "skill": 2,
+        "raw": 3
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "A applies Dator's four futures much more faithfully, with artifacts, probability and preferability, and concrete things to do now in each future; its invented-looking citations count against it but B is generic and lacks any assumption tracking."
+  },
+  {
+    "skill": "fdbx-four-futures",
+    "scenario": "home-energy-app",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "B",
+    "winner_arm": "skill",
+    "skill_total": 34,
+    "raw_total": 18,
+    "delta": 2.286,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 3
+      },
+      "depth_specificity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "actionability": {
+        "skill": 5,
+        "raw": 3
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 2
+      },
+      "coverage_completeness": {
+        "skill": 5,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 5,
+        "raw": 2
+      },
+      "evidence_honesty": {
+        "skill": 4,
+        "raw": 2
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "B applies the published Four Futures steps and ties them to concrete product decisions, with assumptions marked. A is imaginative but skips the method's core steps and leaves invented specifics unmarked."
+  },
+  {
+    "skill": "fdbx-four-futures",
+    "scenario": "university-learning-2045",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "B",
+    "winner_arm": "skill",
+    "skill_total": 33,
+    "raw_total": 19,
+    "delta": 2.0,
+    "dims": {
+      "structure_format": {
+        "skill": 4,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "actionability": {
+        "skill": 5,
+        "raw": 2
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 2
+      },
+      "coverage_completeness": {
+        "skill": 5,
+        "raw": 2
+      },
+      "ethical_nuance": {
+        "skill": 5,
+        "raw": 3
+      },
+      "evidence_honesty": {
+        "skill": 4,
+        "raw": 3
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "B applies the method as published (artifacts, probability, preferability, actions) and gives usable actions and signals, while A stays at narrative level with a one-sided Discipline reading."
+  },
+  {
+    "skill": "fdbx-futures-triangle",
+    "scenario": "city-mobility-2040",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "A",
+    "winner_arm": "skill",
+    "skill_total": 29,
+    "raw_total": 25,
+    "delta": 0.571,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 4,
+        "raw": 4
+      },
+      "actionability": {
+        "skill": 4,
+        "raw": 4
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "coverage_completeness": {
+        "skill": 4,
+        "raw": 4
+      },
+      "ethical_nuance": {
+        "skill": 3,
+        "raw": 4
+      },
+      "evidence_honesty": {
+        "skill": 4,
+        "raw": 2
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "A applies the futures triangle more faithfully, including the interaction and used/disowned-future steps, and is explicit that its figures are unverified assumptions, while B is broader but unflagged and menu-like."
+  },
+  {
+    "skill": "fdbx-futures-triangle",
+    "scenario": "food-delivery-platform",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "B",
+    "winner_arm": "skill",
+    "skill_total": 30,
+    "raw_total": 22,
+    "delta": 1.143,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 4,
+        "raw": 3
+      },
+      "actionability": {
+        "skill": 4,
+        "raw": 4
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "coverage_completeness": {
+        "skill": 5,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 4,
+        "raw": 4
+      },
+      "evidence_honesty": {
+        "skill": 3,
+        "raw": 1
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "B follows the futures triangle fully, gives the used and disowned future analysis, and flags that its inference about the client's strategy and its statistics are assumptions, whereas A asserts the client's strategy as near-fact and invents figures."
+  },
+  {
+    "skill": "fdbx-futures-triangle",
+    "scenario": "public-library-digital",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "A",
+    "winner_arm": "skill",
+    "skill_total": 30,
+    "raw_total": 22,
+    "delta": 1.143,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 4,
+        "raw": 3
+      },
+      "actionability": {
+        "skill": 4,
+        "raw": 3
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "coverage_completeness": {
+        "skill": 5,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 4,
+        "raw": 3
+      },
+      "evidence_honesty": {
+        "skill": 3,
+        "raw": 3
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "A is the more faithful and decision-useful futures triangle, with competing images, per-image weights and a plausible-future call; B is generic and has no evidence discipline."
+  },
+  {
+    "skill": "fdbx-horizon-scanning",
+    "scenario": "fashion-resale-scan",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "A",
+    "winner_arm": "skill",
+    "skill_total": 22,
+    "raw_total": 21,
+    "delta": 0.143,
+    "dims": {
+      "structure_format": {
+        "skill": 4,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 2,
+        "raw": 4
+      },
+      "actionability": {
+        "skill": 3,
+        "raw": 4
+      },
+      "methodology_fidelity": {
+        "skill": 4,
+        "raw": 2
+      },
+      "coverage_completeness": {
+        "skill": 2,
+        "raw": 4
+      },
+      "ethical_nuance": {
+        "skill": 2,
+        "raw": 2
+      },
+      "evidence_honesty": {
+        "skill": 5,
+        "raw": 1
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "B's unsourced statistics and invented signal-collection process undermine a method whose purpose is sourced, dated signals; A applies the published structure and is honest that no signals exist, even though it delivers less."
+  },
+  {
+    "skill": "fdbx-horizon-scanning",
+    "scenario": "food-delivery-scan",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "B",
+    "winner_arm": "raw",
+    "skill_total": 18,
+    "raw_total": 25,
+    "delta": -1.0,
+    "dims": {
+      "structure_format": {
+        "skill": 3,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 2,
+        "raw": 4
+      },
+      "actionability": {
+        "skill": 2,
+        "raw": 4
+      },
+      "methodology_fidelity": {
+        "skill": 4,
+        "raw": 3
+      },
+      "coverage_completeness": {
+        "skill": 2,
+        "raw": 4
+      },
+      "ethical_nuance": {
+        "skill": 1,
+        "raw": 4
+      },
+      "evidence_honesty": {
+        "skill": 4,
+        "raw": 2
+      }
+    },
+    "quote_found_in": "raw",
+    "label_swap": false,
+    "winner_reason": "A gives design leadership a usable scan, watchlist and next steps, while B is honest but mostly placeholders with a missing source list; A's overstated evidence base counts against it but not enough to outweigh the gap."
+  },
+  {
+    "skill": "fdbx-horizon-scanning",
+    "scenario": "library-signals-supplied",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "A",
+    "winner_arm": "skill",
+    "skill_total": 31,
+    "raw_total": 21,
+    "delta": 1.429,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 4,
+        "raw": 3
+      },
+      "actionability": {
+        "skill": 4,
+        "raw": 4
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 2
+      },
+      "coverage_completeness": {
+        "skill": 5,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 3,
+        "raw": 4
+      },
+      "evidence_honesty": {
+        "skill": 5,
+        "raw": 1
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "A applies the named method faithfully and marks every signal as user-supplied. B invents statistics and details and drifts into scenario planning."
+  },
+  {
+    "skill": "fdbx-three-horizons",
+    "scenario": "newsroom-transition",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "A",
+    "winner_arm": "skill",
+    "skill_total": 31,
+    "raw_total": 22,
+    "delta": 1.286,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 4,
+        "raw": 4
+      },
+      "actionability": {
+        "skill": 4,
+        "raw": 4
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 2
+      },
+      "coverage_completeness": {
+        "skill": 5,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 4,
+        "raw": 3
+      },
+      "evidence_honesty": {
+        "skill": 4,
+        "raw": 2
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "A applies Three Horizons as published, sorts H2 innovations into H2+ and H2-, identifies real pockets of the future, and flags what is assumption; B is a creative narrative that omits core method elements and asserts unverified facts about the newsroom."
+  },
+  {
+    "skill": "fdbx-three-horizons",
+    "scenario": "retail-bank-branches",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "A",
+    "winner_arm": "skill",
+    "skill_total": 28,
+    "raw_total": 21,
+    "delta": 1.0,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 3,
+        "raw": 3
+      },
+      "actionability": {
+        "skill": 5,
+        "raw": 4
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "coverage_completeness": {
+        "skill": 5,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 4,
+        "raw": 2
+      },
+      "evidence_honesty": {
+        "skill": 1,
+        "raw": 2
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "A follows the Three Horizons method far more completely and gives sharper, more usable moves; both invent the initiatives and figures, with A worse on false provenance labels, but B is weaker on every other dimension."
+  },
+  {
+    "skill": "fdbx-three-horizons",
+    "scenario": "school-meals-service",
+    "rep": 0,
+    "judge": "sonnet",
+    "served_model": "claude-sonnet (subagent)",
+    "skill_is": "A",
+    "winner_arm": "skill",
+    "skill_total": 31,
+    "raw_total": 21,
+    "delta": 1.429,
+    "dims": {
+      "structure_format": {
+        "skill": 5,
+        "raw": 4
+      },
+      "depth_specificity": {
+        "skill": 4,
+        "raw": 3
+      },
+      "actionability": {
+        "skill": 4,
+        "raw": 3
+      },
+      "methodology_fidelity": {
+        "skill": 5,
+        "raw": 3
+      },
+      "coverage_completeness": {
+        "skill": 5,
+        "raw": 3
+      },
+      "ethical_nuance": {
+        "skill": 5,
+        "raw": 4
+      },
+      "evidence_honesty": {
+        "skill": 3,
+        "raw": 1
+      }
+    },
+    "quote_found_in": "skill",
+    "label_swap": false,
+    "winner_reason": "A follows the published method closely and openly flags that its local examples are assumptions; B invents a completed workshop and many statistics as if real."
+  }
+]
