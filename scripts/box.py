@@ -1,5 +1,5 @@
 """The only box-specific constants. Every other script imports from here, so the
-same harness can serve edbx, fdbx or sdbx by changing this one file."""
+same harness can serve edbx or fdbx by changing this one file."""
 
 from __future__ import annotations
 

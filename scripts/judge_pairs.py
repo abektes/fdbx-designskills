@@ -16,7 +16,7 @@ v0.3): `--emit DIR` writes one blind prompt per judgment plus jobs.json; a
 subagent reads each prompt and writes its JSON verdict next to it;
 `--ingest DIR` checks and tallies them exactly as API verdicts are.
 
-One addition, from cdbx v0.1: a judge there described the skill output's content
+One addition, from an earlier harness: a judge there described the skill output's content
 under the wrong label, so its verdict pointed at the baseline. Each judge now
 quotes 6-15 words from the response it prefers, and this script checks which
 response the quote actually comes from. A quote found only in the other response
@@ -49,13 +49,12 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import run_generation as rg  # noqa: E402
 from run_generation import CACHE_DIR, ENDPOINT, EVAL_DIR, REPO, RUNS_DIR, SKILLS_DIR, load_env, method_name  # noqa: E402
 
-# Ported from cdbx for edbx, fdbx and sdbx (2026-10-12). Those harnesses name the
-# method from each SKILL.md's H1 (what the baseline arm was told) rather than a
-# PUBLISHED_METHOD table, and edbx keeps its scenarios in eval-framework/.
+# Shared by edbx and fdbx (2026-10-12). Both harnesses name the method from each
+# SKILL.md's H1 (what the baseline arm was told) rather than a PUBLISHED_METHOD
+# table, and edbx keeps its scenarios in eval-framework/.
 BOX = getattr(rg, "BOX", SKILLS_DIR.name)
 JUDGE_ROLE = {"edbx": "ethical design work for digital products",
-              "fdbx": "futures and foresight work for design and strategy",
-              "sdbx": "systemic design work (systems mapping, soft systems, transitions)"}[BOX]
+              "fdbx": "futures and foresight work for design and strategy"}[BOX]
 
 
 def evals_file(skill: str) -> Path:

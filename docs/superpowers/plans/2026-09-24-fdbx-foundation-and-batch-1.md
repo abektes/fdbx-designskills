@@ -4,7 +4,7 @@
 
 **Goal:** Stand up `fdbx`, a futures-thinking skill box built the edbx way, with its first four skills grounded in sources a reader can open and check.
 
-**Architecture:** A new repo at `~/WDesignspace/fdbx` that mirrors edbx's layout (`fdbx/fdbx-*/SKILL.md`, `scripts/`, `tutorials/`, `skills/` symlinks, `.claude-plugin/`). The edbx harness is copied and parameterised through one file, `scripts/box.py`, so the same code can later serve edbx, fdbx and sdbx. Two things are new relative to edbx: a **provenance gate** (every source-attributed claim in a skill carries a page locator and an anchor phrase that a script finds in the downloaded source), and **shared output conventions** (every skill ends with an Evidence Ledger and a Handoff block).
+**Architecture:** A new repo at `~/WDesignspace/fdbx` that mirrors edbx's layout (`fdbx/fdbx-*/SKILL.md`, `scripts/`, `tutorials/`, `skills/` symlinks, `.claude-plugin/`). The edbx harness is copied and parameterised through one file, `scripts/box.py`, so the same code can later serve edbx and fdbx. Two things are new relative to edbx: a **provenance gate** (every source-attributed claim in a skill carries a page locator and an anchor phrase that a script finds in the downloaded source), and **shared output conventions** (every skill ends with an Evidence Ledger and a Handoff block).
 
 **Tech Stack:** Markdown skills; Python 3.12 standard library only for scripts; `pdftotext` / `pdfinfo` (poppler) for source text; `unittest` for tests; OpenRouter + DeepSeek V4 Pro and TypeSafe Jev for evaluation, inherited from edbx.
 
@@ -131,7 +131,7 @@ Expected: first command prints the `sources/*` rule; second prints nothing and `
 
 ```python
 """The only box-specific constants. Every other script imports from here, so the
-same harness can serve edbx, fdbx or sdbx by changing this one file."""
+same harness can serve edbx or fdbx by changing this one file."""
 
 from __future__ import annotations
 

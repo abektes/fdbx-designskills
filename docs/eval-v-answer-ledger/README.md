@@ -6,7 +6,7 @@ arm was regenerated (18 outputs, DeepSeek V4 Pro via OpenRouter, $0.37);
 the baseline arm, told the published method by name, came from cache. Pairs were
 judged blind by Claude Sonnet subagents (in session, no API cost) with the
 seven-dimension rubric and the quote check against label swaps
-(`scripts/judge_pairs.py`, ported from cdbx).
+(`scripts/judge_pairs.py`, ported from the family harness).
 
 ## Result
 
